@@ -32,7 +32,7 @@ export const pollingStations: PollingStation[] = [
   // Tổ 1
   {
     id: "thon-kon-gung",
-    name: "Thôn Kon gung",
+    name: "Thôn Kon Gung",
     groupId: 1,
     lat: 14.35,
     lng: 108.0,
@@ -104,7 +104,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/4_qhyapi.png",
     description:
-      "Khu vực bỏ phiếu thôn 1 nằm ở trung tâm xã, dân cư đông đúc. Điểm bầu cử có bố trí sơ đồ hướng dẫn luồng di chuyển một chiều để tránh ùn tắc.",
+      "Khu vực bỏ phiếu thôn 1 nằm ở trung tâm xã Đăk Mar, dân cư đông đúc. Điểm bầu cử có bố trí sơ đồ hướng dẫn luồng di chuyển một chiều để tránh ùn tắc.",
   },
   {
     id: "thon-kon-ko-lok",
@@ -220,7 +220,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/8_gygaj5.png",
     description:
-      "Khu vực bỏ phiếu thôn Kon Mong là một trong những điểm xa trung tâm nhất. Tuy nhiên, mọi cơ sở vật chất và hòm phiếu đều được vận chuyển đến nơi an toàn, đúng tiến độ.",
+      "Khu vực bỏ phiếu thôn Kon Mong là một trong những điểm xa trung tâm nhất của xã Đăk Mar. Tuy nhiên, mọi cơ sở vật chất và hòm phiếu đều được chuẩn bị chu đáo.",
   },
   {
     id: "thon-dak-klong",
@@ -232,6 +232,6 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/8_gygaj5.png",
     description:
-      "Điểm bầu cử thôn Đăk Klong hoàn tất 100% công tác chuẩn bị. Bà con cử tri đã được phổ biến kỹ lưỡng về quyền và nghĩa vụ công dân trong công tác bầu cử.",
+      "Điểm bầu cử thôn Đăk Klong hoàn tất 100% công tác chuẩn bị. Bà con cử tri đã được phổ biến kỹ lưỡng về quyền và nghĩa vụ công dân.",
   },
 ];

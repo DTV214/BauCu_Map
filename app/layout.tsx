@@ -15,11 +15,20 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Bản đồ số hóa - Bầu cử Xã Vạn Tường",
+  title: "Bản đồ số hóa - Tiếp xúc cử tri Xã Đăk Mar",
   description:
-    "Bản đồ số hóa địa điểm khu vực bỏ phiếu bầu cử đại biểu quốc hội khóa XVI và đại biểu HĐND các cấp, nhiệm kỳ 2026 - 2031 tại xã Vạn Tường.",
+    "Bản đồ số hóa các điểm tiếp xúc cử tri đại biểu Hội đồng nhân dân xã Đăk Mar khóa VII, nhiệm kỳ 2026-2031.",
+  icons: [
+    {
+      rel: "icon",
+      url: "https://res.cloudinary.com/dratbz8bh/image/upload/v1775755720/DEN_%C4%90%E1%BA%A0I_H%E1%BB%98I_dwqxbf.png",
+    },
+    {
+      rel: "apple-touch-icon",
+      url: "https://res.cloudinary.com/dratbz8bh/image/upload/v1775755720/DEN_%C4%90%E1%BA%A0I_H%E1%BB%98I_dwqxbf.png",
+    },
+  ],
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,9 +38,12 @@ export default function RootLayout({
     <html
       lang="vi"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
+      suppressHydrationWarning // Thêm dòng này để lờ đi cảnh báo Hydration do Extension gây ra ở tag html
     >
-      {/* Khóa scroll toàn trang, quản lý scroll ở từng component nhỏ */}
-      <body className="h-full flex flex-col bg-brand-cream overflow-hidden">
+      <body
+        className="h-full flex flex-col bg-brand-cream overflow-hidden"
+        suppressHydrationWarning // Thêm dòng này để xử lý triệt để lỗi cz-shortcut-listen ở thẻ body
+      >
         {children}
       </body>
     </html>

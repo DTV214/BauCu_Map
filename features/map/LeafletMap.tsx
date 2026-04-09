@@ -6,15 +6,16 @@ import L from "leaflet";
 import { useEffect } from "react";
 import Image from "next/image";
 import { pollingStations } from "@/data/mockData";
-import { usePollingContext } from "@/context/PollingContext"; // <-- Import context
+import { usePollingContext } from "@/context/PollingContext";
 
-// Fix icon lỗi
+// Fix icon lỗi của Leaflet trong Next.js
 const customIcon = L.icon({
-  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  iconUrl:
+    "https://res.cloudinary.com/dratbz8bh/image/upload/v1775755720/DEN_%C4%90%E1%BA%A0I_H%E1%BB%98I_dwqxbf.png",
   iconRetinaUrl:
-    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+    "https://res.cloudinary.com/dratbz8bh/image/upload/v1775755720/DEN_%C4%90%E1%BA%A0I_H%E1%BB%98I_dwqxbf.png",
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
-  iconSize: [25, 41],
+  iconSize: [50, 30],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
   shadowSize: [41, 41],
@@ -55,8 +56,13 @@ export default function LeafletMap() {
       ? pollingStations
       : pollingStations.filter((s) => s.groupId.toString() === selectedGroupId);
 
+  // Tọa độ trung tâm xã Đăk Mar
   const centerLat = 14.39;
   const centerLng = 108.04;
+
+  // Link Logo bạn cung cấp
+  const logoUrl =
+    "https://res.cloudinary.com/dratbz8bh/image/upload/v1775755720/DEN_%C4%90%E1%BA%A0I_H%E1%BB%98I_dwqxbf.png";
 
   return (
     <MapContainer
@@ -84,30 +90,45 @@ export default function LeafletMap() {
           }}
         >
           <Popup>
-            <div className="flex flex-col items-center gap-2 font-sans w-50">
-              <div className="w-full h-28 relative">
+            <div className="flex flex-col items-center gap-0 font-sans w-52 pb-1">
+              {/* Ảnh bìa */}
+              <div className="w-full h-24 relative rounded-t-md overflow-hidden border-b border-slate-200">
                 <Image
                   src={station.imageUrl}
                   alt={`Ảnh tại ${station.name}`}
                   fill
-                  className="object-cover rounded-md border border-slate-200"
+                  className="object-cover"
                 />
               </div>
-              <div className="text-center w-full">
-                <h3 className="font-bold text-brand-red text-base leading-tight">
+
+              {/* Vùng chứa text và Logo đè lên */}
+              <div className="text-center w-full relative flex flex-col items-center -mt-6">
+                {/* Logo bọc viền trắng để nổi bật */}
+                <div className="w-12 h-12 relative rounded-full border-2 border-white shadow-md overflow-hidden bg-white z-10 mb-1">
+                  <Image
+                    src={logoUrl}
+                    alt="Logo Đoàn Xã"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                <h3 className="font-bold text-brand-red text-base leading-tight px-2">
                   {station.name}
                 </h3>
                 <p className="text-xs text-slate-600 mt-1 font-medium">
                   Thuộc Tổ đại biểu số {station.groupId}
                 </p>
-                <a
-                  href={station.mapUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 block w-full bg-brand-gold text-brand-red-dark text-xs font-bold px-3 py-2 rounded-md text-center no-underline hover:bg-yellow-500 transition-colors shadow-sm"
-                >
-                  📍 Xem trên Google Maps
-                </a>
+                <div className="px-3 w-full">
+                  <a
+                    href={station.mapUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 block w-full bg-brand-gold text-brand-red-dark text-xs font-bold px-3 py-2 rounded-md text-center no-underline hover:bg-yellow-500 transition-colors shadow-sm"
+                  >
+                    📍 Xem trên Google Maps
+                  </a>
+                </div>
               </div>
             </div>
           </Popup>

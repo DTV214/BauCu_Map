@@ -46,8 +46,9 @@ export default function StationDetail() {
         </h2>
 
         <p className="text-slate-600 text-sm leading-relaxed mb-6">
-          Đây là khu vực bỏ phiếu được chỉ định cho các cử tri sinh sống tại{" "}
-          {station.name}. Vui lòng mang theo thẻ cử tri khi đến bỏ phiếu.
+          Đây là điểm tiếp xúc cử tri được chỉ định cho bà con sinh sống tại{" "}
+          <span className="font-semibold">{station.name}</span>. Vui lòng sắp
+          xếp thời gian tham gia đầy đủ để đóng góp ý kiến.
         </p>
 
         <div className="mt-auto pt-4 border-t border-slate-100">
@@ -58,7 +59,7 @@ export default function StationDetail() {
             className="w-full flex items-center justify-center gap-2 bg-brand-red text-white py-3 rounded-lg font-bold hover:bg-brand-red-dark transition-colors shadow-md"
           >
             <ExternalLink size={18} />
-            Mở trên Google Maps
+            Chỉ đường đến điểm tiếp xúc cử tri
           </a>
         </div>
       </div>
