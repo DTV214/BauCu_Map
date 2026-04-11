@@ -122,7 +122,7 @@ export const pollingStations: PollingStation[] = [
   // Tổ 4
   {
     id: "thon-kon-hnong-yop",
-    name: "Thôn Hnong Yô",
+    name: "Thôn Hnong Yôp",
     groupId: 4,
     lat: 14.39,
     lng: 108.04,
@@ -130,7 +130,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496211/5_fb6dkv.png",
     description:
-      "Điểm tiếp xúc cử tri Thôn Hnong Yô được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
+      "Điểm tiếp xúc cử tri Thôn Hnong Yôp được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-dak-kang-yop",
