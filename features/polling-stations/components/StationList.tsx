@@ -32,7 +32,8 @@ export default function StationList() {
   const MANAGEMENT_ID = "village-management";
   const isManagementActive = activeStationId === MANAGEMENT_ID;
   const managementImages = [
-    "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/1_qortaj.png",
+    // "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/1_qortaj.png",
+    "https://res.cloudinary.com/dratbz8bh/image/upload/v1775899748/AnhCapCao_Tong_tlkrbs.jpg",
     "https://res.cloudinary.com/dratbz8bh/image/upload/v1775755719/2_tlbtkf.jpg",
   ];
 

@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Bản đồ số hóa - Tiếp xúc cử tri Xã Đăk Mar",
+  title: "Bản đồ số hóa - Điểm tiếp xúc cử tri Xã Đăk Mar",
   description:
     "Bản đồ số hóa các điểm tiếp xúc cử tri đại biểu Hội đồng nhân dân xã Đăk Mar khóa VII, nhiệm kỳ 2026-2031.",
   icons: [

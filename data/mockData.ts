@@ -40,7 +40,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/2_ad1pli.png",
     description:
-      "Khu vực bỏ phiếu số 1 đặt tại Nhà văn hóa thôn Kon Gung. Nơi đây tập trung đông đảo bà con cử tri, cơ sở vật chất đã được chuẩn bị chu đáo, có bố trí ghế ngồi chờ và nước uống cho người cao tuổi.",
+      "Điểm tiếp xúc cử tri thôn Kon Gung được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-dak-mut",
@@ -52,7 +52,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/2_ad1pli.png",
     description:
-      "Điểm bỏ phiếu tại nhà rông văn hóa thôn Đăk Mút. Giao thông thuận tiện, không gian rộng rãi đảm bảo an ninh trật tự, thuận lợi cho bà con đồng bào đến tham gia bầu cử.",
+      "Điểm tiếp xúc cử tri thôn Đăk Mút được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 
   // Tổ 2
@@ -66,7 +66,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/3_h7ash3.png",
     description:
-      "Vị trí bỏ phiếu tại Hội trường thôn 3. Khu vực này chủ yếu là các hộ dân làm nông nghiệp, cán bộ thôn đã hỗ trợ phát thẻ cử tri đến tận tay từng hộ gia đình.",
+      "Điểm tiếp xúc cử tri Thôn 3 được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-4",
@@ -78,7 +78,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/3_h7ash3.png",
     description:
-      "Khu vực bỏ phiếu thôn 4 được trang bị đầy đủ bảng niêm yết danh sách cử tri và tiểu sử tóm tắt của các ứng cử viên để người dân dễ dàng theo dõi.",
+      "Điểm tiếp xúc cử tri Thôn 4 được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-5",
@@ -90,7 +90,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/3_h7ash3.png",
     description:
-      "Điểm bầu cử tại nhà văn hóa thôn 5. Tuyến đường vào khu vực đã được rà soát, dọn dẹp vệ sinh sạch sẽ, đảm bảo mỹ quan và an toàn trong ngày hội toàn dân.",
+      "Điểm tiếp xúc cử tri Thôn 5 được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 
   // Tổ 3
@@ -104,7 +104,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/4_qhyapi.png",
     description:
-      "Khu vực bỏ phiếu thôn 1 nằm ở trung tâm xã Đăk Mar, dân cư đông đúc. Điểm bầu cử có bố trí sơ đồ hướng dẫn luồng di chuyển một chiều để tránh ùn tắc.",
+      "Điểm tiếp xúc cử tri Thôn 1 được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-kon-ko-lok",
@@ -116,13 +116,13 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/4_qhyapi.png",
     description:
-      "Điểm bỏ phiếu thôn Kon Kơ Lốk được đặt tại không gian sinh hoạt cộng đồng chung. Bà con cử tri nơi đây có truyền thống tham gia bầu cử rất sớm và đầy đủ.",
+      "Điểm tiếp xúc cử tri Thôn Kơ Lốk được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 
   // Tổ 4
   {
     id: "thon-kon-hnong-yop",
-    name: "Thôn Kon Hnong Yôp",
+    name: "Thôn Hnong Yô",
     groupId: 4,
     lat: 14.39,
     lng: 108.04,
@@ -130,7 +130,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496211/5_fb6dkv.png",
     description:
-      "Điểm bầu cử tại thôn Kon Hnong Yôp. Khu vực này có tỷ lệ cử tri trẻ tuổi cao, công tác tuyên truyền trực quan bằng loa phát thanh được triển khai rất mạnh mẽ.",
+      "Điểm tiếp xúc cử tri Thôn Hnong Yô được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-dak-kang-yop",
@@ -142,7 +142,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496211/5_fb6dkv.png",
     description:
-      "Khu vực bỏ phiếu đặt tại trường tiểu học của thôn Đăk Kang Yôp. Sân trường rộng rãi thuận tiện cho việc đỗ xe và tổ chức các hoạt động hướng dẫn cử tri.",
+      "Điểm tiếp xúc cử tri Thôn Đăk Kang Yôp được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 
   // Tổ 5
@@ -156,7 +156,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/6_j0vakl.png",
     description:
-      "Tổ bầu cử tại thôn Kon Hnong Pêng đã chuẩn bị sẵn sàng hòm phiếu phụ để hỗ trợ những cử tri già yếu, khuyết tật không thể trực tiếp đến điểm bỏ phiếu.",
+      "Điểm tiếp xúc cử tri Thôn Kon Hnong Pêng được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-kon-proh-tu-ria",
@@ -168,7 +168,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/6_j0vakl.png",
     description:
-      "Khu vực bỏ phiếu thôn Kon Proh Tu Ria. Lực lượng thanh niên tình nguyện luôn túc trực để hỗ trợ hướng dẫn quy trình bỏ phiếu cho bà con.",
+      "Điểm tiếp xúc cử tri Thôn Kon Proh Tu Ria được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-tu-ria-peng",
@@ -180,7 +180,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/6_j0vakl.png",
     description:
-      "Điểm bầu cử thôn Tu Ria Pêng nằm cạnh trục đường chính, dễ dàng tìm kiếm. Đã có phương án phân luồng giao thông để đảm bảo an toàn.",
+      "Điểm tiếp xúc cử tri Thôn Tu Ria Pêng được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 
   // Tổ 6
@@ -194,7 +194,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/7_i8qmgt.png",
     description:
-      "Khu vực bỏ phiếu Tân Lập A đại diện cho khu dân cư mới. Phòng bỏ phiếu được trang trí khánh tiết trang trọng, đúng quy định của Luật Bầu cử.",
+      "Điểm tiếp xúc cử tri Thôn Tân Lập A được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-tan-lap-b",
@@ -206,7 +206,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496203/7_i8qmgt.png",
     description:
-      "Điểm bầu cử Tân Lập B được đặt tại nhà văn hóa. Công tác niêm yết danh sách cử tri được thực hiện từ rất sớm để bà con có thời gian kiểm tra, đối chiếu.",
+      "Điểm tiếp xúc cử tri Thôn Tân Lập B được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 
   // Tổ 7
@@ -220,7 +220,7 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/8_gygaj5.png",
     description:
-      "Khu vực bỏ phiếu thôn Kon Mong là một trong những điểm xa trung tâm nhất của xã Đăk Mar. Tuy nhiên, mọi cơ sở vật chất và hòm phiếu đều được chuẩn bị chu đáo.",
+      "Điểm tiếp xúc cử tri Thôn Tân Lập Kon Mong được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
   {
     id: "thon-dak-klong",
@@ -232,6 +232,6 @@ export const pollingStations: PollingStation[] = [
     imageUrl:
       "https://res.cloudinary.com/dratbz8bh/image/upload/v1775496204/8_gygaj5.png",
     description:
-      "Điểm bầu cử thôn Đăk Klong hoàn tất 100% công tác chuẩn bị. Bà con cử tri đã được phổ biến kỹ lưỡng về quyền và nghĩa vụ công dân.",
+      "Điểm tiếp xúc cử tri Thôn Đăk Klong được trang bị mô hình 'Góp ý số' nhân dân.Đây là cầu nối trực tiếp, kịp thời giữa người dân với chính quyền. Thông qua mô hình này, người dân có thể chủ động gửi ý kiến, kiến nghị mọi lúc, mọi nơi một cách nhanh chóng, thuận tiện, không còn phụ thuộc vào các kỳ tiếp xúc cử tri định kỳ. Qua đó, góp phần phát huy quyền làm chủ của nhân dân, nâng cao tính minh bạch, trách nhiệm giải trình và hiệu quả trong công tác lắng nghe, giải quyết ý kiến từ cơ sở",
   },
 ];
